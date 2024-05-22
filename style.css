@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+html, body * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    background-color: #efefef;
+    overflow-x: hidden;
+}
+#top {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+}
+.column {
+    width: 33.3333vw;
+    height: 100vh;
+
+    
+}
+
+#left {
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+}
+
+#lefttop {
+    height: 20%;
+    padding-top: 5vh;
+}
+#leftbottom {
+    height: 80%;
+    padding-top: 8vh;
+}
+#leftbottom img {
+    width: 50%;
+    max-width: 300px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: left;
+    color: #313131;
+    letter-spacing: -5px;
+}
+
+#middle {
+    margin: 20vh auto;
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #949494;
+    letter-spacing: 0px;
+    margin-top: 2.5vh;
+    text-align: left;
+    width: 30vw;
+    margin-left: 5px;
+}
+#right {
+    background: url(../images/background_text.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .5;
+    z-index: -1;
+    visibility: hidden;
+    
+}
+#button {
+    width: 250px;
+    height: 5vh;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    padding: 1.45vh 0;
+    font-size: 20px;
+    background: #000;
+    justify-content: center;
+
+}
+#buttonwork {
+    color: #229aff;
+    width: 250px;
+    height: 5vh;
+    border-radius: 50px;
+    border:1px #229aff solid;
+    text-align: center;
+    padding: 1.45vh 0;
+    font-size: 20px;
+    background: #efefef;
+    justify-content: center;
+
+    margin-left: 2.5vw;
+    
+}
+#buttonwork:hover {
+    color: #ffffff;
+    width: 250px;
+    height: 5vh;
+    border-radius: 50px;
+    border:1px #229aff solid;
+    text-align: center;
+    padding: 1.45vh 0;
+    font-size: 20px;
+    background: #229aff;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+    
+}
+#button:hover {     
+    cursor: pointer;
+}
+
+h4 {
+   
+   
+    font-size: 1vw;
+}
+
+#button:hover {
+    background: #229aff;
+}
+
+#video {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    margin-top: -15vh;
+    
+}
+#videosrc {
+    text-align: center;
+    border-radius: 10px;
+    width: 77vw;
+    transition: width 0.1s ease;
+}
+#plans {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.plans {
+    width: 25vw;
+    height: max-content;
+    padding-top: 10vh;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+
+#plans img {
+    width: 99%;
+}
+.plans:hover {
+    transform: scale(1.05);
+    
+}
+
+#work {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+
+#workbox {
+    width: 75vw;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.workvideos {
+    width: 20vw;
+    height: 60vh;
+margin: 10vh 1vw;
+}
+#workvideo1 {
+    border-radius: 20px;
+}
